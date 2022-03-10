@@ -16,11 +16,20 @@
             width: calc(100vw - 20px);
             border: 10px solid red;
             display: flex;
-            justify-content: center;
-            align-items: center;
+
         }
 
-        .blocks {
+        img {
+            margin: 10px;
+            height: 90px;
+            width: 150px;
+        }
+
+        .img2 {
+            align-self: center;
+        }
+
+        /* .blocks {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,31 +48,33 @@
 
         .block1 {
             flex-basis: 400px;
-            /* flex-grow: 16; */
-            flex-shrink: 16;
+            flex-shrink: 2;
         }
 
         .block2 {
+            order: 2;
             flex-basis: 100px;
-            /* flex-grow: 1; */
-            flex-shrink: 1;
         }
 
         .block3 {
-            flex-basis: 200px;
-            /* flex-grow: 2; */
-            flex-shrink: 1;
-        }
+            order: 1;
+            flex-basis: 400px;
+        } */
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="blocks">
+        <!-- <div class="blocks">
             <div class="block block1">1</div>
             <div class="block block2">2</div>
-            <div class="block block3">3</div>
-        </div>
+            <div class="block block3">3</div> -->
+        <img src="images/1.jpeg" class="img1" alt="">
+        <img src="images/2.jpeg" class="img2" alt="">
+        <img src="images/3.jpeg" class="img3" alt="">
+        <!-- <img src="images/4.jpeg" alt="">
+        <img src="images/5.jpeg" alt="">
+        <img src="images/6.jpeg" alt=""> -->
     </div>
 </body>
 
